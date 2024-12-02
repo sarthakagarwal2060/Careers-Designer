@@ -42,6 +42,13 @@ function displayFileName() {
             <p><strong>Key Skills:</strong> ${job.key_skills}</p>
             <p><strong>Role:</strong> ${job.role}</p>
             <p><strong>Salary:</strong> ${job.job_salary}</p>
+
+        <div class="button-container">
+            <button class="button missing-skills">Missing Skills</button>
+            <button class="button upskill">Upskill</button>
+            <button class="button company-reviews">Company Reviews</button>
+            <button class="button apply-now">Apply Now</button>
+        </div>
           `;
   
           outputDiv.appendChild(jobCard);
@@ -51,10 +58,4 @@ function displayFileName() {
         console.error('Error fetching data:', error);
       });
   });
-  
-
-
-
-
-
   
