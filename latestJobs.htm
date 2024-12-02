@@ -6,6 +6,35 @@
     <title>Document</title>
     
     <style>
+      
+      .button-container {
+            width: 70% !important; 
+            margin-top: 10px;
+            display: flex !important; 
+            flex-direction: row !important;
+            justify-content: flex-start!important;
+            gap: 10px !important;
+            align-items: center !important;
+        }
+        .button {
+            width: 180px;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+        }
+        .button.missing-skills { background-color: #ff7f50; }
+        .button.upskill { background-color: #4caf50; }
+        .button.company-reviews { background-color: #007bff; }
+        .button.apply-now { background-color: #ff5722; }
+
+        .button:hover {
+            opacity: 0.9;
+        }
         /* General body styles */
 body {
   font-family: 'Roboto', Arial, sans-serif;
@@ -72,16 +101,7 @@ body {
   color: #34495e;
 }
 
-/* Decorative underline for cards */
-/* #output div::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 4px;
-  background-color: #3498db;
-  margin: 10px auto 0;
-  border-radius: 2px;
-} */
+
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
