@@ -36,11 +36,12 @@ function displayFileName() {
   
           jobCard.innerHTML = `
             <h3>${job.job_title}</h3>
+            <p><strong>Company:</strong> ${job.company_name}</p>
             <p><strong>Location:</strong> ${job.location}</p>
-            <p><strong>Salary:</strong> ${job.job_salary}</p>
             <p><strong>Experience Required:</strong> ${job.job_experience_required}</p>
             <p><strong>Key Skills:</strong> ${job.key_skills}</p>
             <p><strong>Role:</strong> ${job.role}</p>
+            <p><strong>Salary:</strong> ${job.job_salary}</p>
           `;
   
           outputDiv.appendChild(jobCard);
