@@ -241,6 +241,7 @@
     }
     
     .upload-button {
+        margin-top: 30px;
         padding: 8px 12px;
         background-color: #137ce5;
         color: white;
@@ -255,6 +256,7 @@
     }
     
     #file-name {
+        margin-top:30px;
         font-size: 14px;
         color: #333;
     }
