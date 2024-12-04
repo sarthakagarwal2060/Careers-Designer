@@ -27,6 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const location = locationInput.value;
 
         // Redirect to search results page with query parameters
-        window.location.href = `search-results.htm?query=${encodeURIComponent(skills)}&location=${encodeURIComponent(location)}`;
+        window.location.href = `searchResults.htm?query=${encodeURIComponent(skills)}&location=${encodeURIComponent(location)}`;
     });
 });
