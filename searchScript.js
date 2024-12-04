@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const skills = skillsInput.value;
         const location = locationInput.value;
-
+    
         // Redirect to search results page with query parameters
         window.location.href = `searchResults.htm?query=${encodeURIComponent(skills)}&location=${encodeURIComponent(location)}`;
     });
